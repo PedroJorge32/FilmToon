@@ -1,0 +1,89 @@
+.PageSalvos {
+    margin-top: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+.PageSalvos h1 {
+    margin-bottom: 40px;
+}
+
+.PageSalvos span{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    margin-left: 12px;
+}
+
+.PageSalvos img {
+
+    width: 630px;
+    height: 250px;
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 450px;
+    object-fit: cover;
+    border-radius: 5px;
+    display: block;
+
+
+}
+
+.PageSalvos a {
+  text-decoration: none;
+  font-size: 25px;
+  cursor: pointer;
+  color: #F5F5F5;
+  font-weight: bold;
+  background-color: #0000006c;
+  padding: 5px 14px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  margin-top: -37px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 630px;
+  transition: all 0.5s;
+}
+
+.PageSalvos a:hover{
+    background-color: rgba(0, 0, 0, 0.76);
+}
+
+.PageSalvos button{
+     text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #F5F5F5;
+  font-weight: bold;
+  background-color: #22455e;
+  padding: 5px 14px;
+  border-radius: 4px;
+  border: none;
+  transition: all 0.5s;
+}
+
+.PageSalvos button:hover {
+  
+  background-color: red;
+}
+
+
+
+.Ali {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.thebut {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+}

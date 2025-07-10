@@ -1,0 +1,91 @@
+.listafilmes{
+  max-width: 800px;
+  margin:14px auto ;
+  
+ 
+
+}
+
+.listafilmes h1{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 155px ;
+  flex-direction: column;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 3rem;
+  color: #081a4de7;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.493);
+  animation: fadeInUp 3s ease-out forwards;
+  opacity: 0;
+    
+}
+@keyframes fadeInUp {
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+.listafilmes article{
+    width: 100%;
+  
+    padding: 15px;
+    border-radius:4px ;
+    
+    
+    
+}
+
+.listafilmes strong{
+    margin-bottom: 14px;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    padding-top: 135px;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-top: -50px;
+    
+}
+
+.listafilmes img{
+    width: 900px;
+    max-width: 100%;
+    max-height: 450px;
+    object-fit: cover;
+    background-color: #3D5A73;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    display: block;
+}
+
+.listafilmes a{
+   display: flex;
+   align-items: center; 
+   justify-content: center;
+   text-decoration: none;
+   color: #fff;
+   font-size: 24px;
+   padding: 10px 0;
+   
+   background-color: #116feb;
+   border-bottom-left-radius:8px ;
+   border-bottom-right-radius: 8px;
+   font-weight: bold;
+   
+
+}
+
+.loading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+}

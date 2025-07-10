@@ -1,0 +1,51 @@
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(to right, #0b2236 15%, transparent 40%, transparent 60%, #3D5A73 85%);
+    height: 105px;
+    position: sticky;
+    z-index: 1000;
+    padding: 1rem;
+    top: 0;
+    left: 0;
+    border-radius: 3px;
+    
+}
+
+.logo{
+  text-decoration: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  
+
+}
+
+.myfilms {
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #F5F5F5;
+  font-weight: bold;
+  background-color: #22455e;
+  padding: 5px 14px;
+  border-radius: 4px;
+  transition: all 0.5s;
+  
+}
+
+
+.myfilms:hover{
+   background-color: rgba(0, 0, 0, 0.575);
+   transform: scale(1.1); /* aumenta 10% */
+}
+
+
+
+.imgLogo{
+  height: 105px;
+  width: 140px;
+}
